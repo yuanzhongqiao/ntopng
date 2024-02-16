@@ -1,35 +1,23 @@
-![ntop][ntopng_logo] ![ntop][ntop_logo]
-# ntopng 
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/ntop/ntopng/build.yml?branch=dev&logo=github)](https://github.com/ntop/ntopng/actions?query=workflow%3ABuild)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/ntopng.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:ntopng)
-
-### Introduction
-
-ntopng® is a web-based network traffic monitoring application released under GPLv3. It is the new incarnation of the original ntop written in 1998, and now revamped in terms of performance, usability, and features.
-
-While you can read more about ntopng on the ntop web site (http://www.ntop.org), we suggest you to start reading the [doc/README.md](https://github.com/ntop/ntopng/blob/dev/doc/README.md) file for learning how to compile and use ntopng.
-
-If instead of source code you prefer to use a pre-built package, please go to http://packages.ntop.org
-
-We build binary packages for the following platforms:
-* Debian/Ubuntu LTS x64
-* CentOS/RedHat/RockyLinux/AlmaLinux Linux x64
-* Windows x64
-* RaspberryPI/Debian ARM
-* FreeBSD/OPNsense/pfSense
-
-Enjoy.
-
-### Documentation
-
-If you want to learn more about ntopng please visit the [User's Guide](https://www.ntop.org/guides/ntopng/) and the [API Documentation](https://www.ntop.org/guides/ntopng/api/index.html).
-
-### Details
-For more information about ntopng, please visit [http://ntop.org](https://www.ntop.org/products/traffic-analysis/ntop/)
-
-ntopng is a registered trademark in the US and EU.
-
-[ntopng_logo]: https://camo.githubusercontent.com/0f789abcef232035c05e0d2e82afa3cc3be46485/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031312f30382f6e746f706e672d69636f6e2d313530783135302e706e67
-
-[ntop_logo]: https://camo.githubusercontent.com/58e2a1ecfff62d8ecc9d74633bd1013f26e06cba/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031352f30352f6e746f702e706e67
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0f789abcef232035c05e0d2e82afa3cc3be46485/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031312f30382f6e746f706e672d69636f6e2d313530783135302e706e67"><img src="https://camo.githubusercontent.com/0f789abcef232035c05e0d2e82afa3cc3be46485/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031312f30382f6e746f706e672d69636f6e2d313530783135302e706e67" alt="恩托普" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/58e2a1ecfff62d8ecc9d74633bd1013f26e06cba/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031352f30352f6e746f702e706e67"><img src="https://camo.githubusercontent.com/58e2a1ecfff62d8ecc9d74633bd1013f26e06cba/687474703a2f2f7777772e6e746f702e6f72672f77702d636f6e74656e742f75706c6f6164732f323031352f30352f6e746f702e706e67" alt="恩托普" style="max-width: 100%;"></a></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-ntopng" class="anchor" aria-hidden="true" tabindex="-1" href="#ntopng"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恩托彭</font></font></h1>
+<p dir="auto"><a href="https://github.com/ntop/ntopng/actions?query=workflow%3ABuild"><img src="https://camo.githubusercontent.com/3a8ab3750283db7823640940039afbdbb7690ded6eaaebaf8cf7e5cd1a0b5c38/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f6e746f702f6e746f706e672f6275696c642e796d6c3f6272616e63683d646576266c6f676f3d676974687562" alt="构建状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/ntop/ntopng/build.yml?branch=dev&amp;logo=github" style="max-width: 100%;"></a>
+<a href="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&amp;can=1&amp;q=proj:ntopng" rel="nofollow"><img src="https://camo.githubusercontent.com/d5a4ae6bb3819f67bdca971b866919a40014029f6a56291e39f106d77c854961/68747470733a2f2f6f73732d66757a7a2d6275696c642d6c6f67732e73746f726167652e676f6f676c65617069732e636f6d2f6261646765732f6e746f706e672e737667" alt="模糊测试状态" data-canonical-src="https://oss-fuzz-build-logs.storage.googleapis.com/badges/ntopng.svg" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-introduction" class="anchor" aria-hidden="true" tabindex="-1" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ntopng® 是一款基于 Web 的网络流量监控应用程序，在 GPLv3 下发布。</font><font style="vertical-align: inherit;">它是 1998 年编写的原始 ntop 的新版本，现在在性能、可用&ZeroWidthSpace;&ZeroWidthSpace;性和功能方面进行了改进。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然您可以在 ntop 网站 ( </font></font><a href="http://www.ntop.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.ntop.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ) 上阅读有关 ntopng 的更多信息，但我们建议您开始阅读</font></font><a href="https://github.com/ntop/ntopng/blob/dev/doc/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">doc/README.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件以了解如何编译和使用 ntopng。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您更喜欢使用预构建的包而不是源代码，请访问</font></font><a href="http://packages.ntop.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://packages.ntop.org</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们为以下平台构建二进制包：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Debian/Ubuntu LTS x64</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CentOS/RedHat/RockyLinux/AlmaLinux Linux x64</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows x64</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RaspberryPI/Debian ARM</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeBSD/OPNsense/pfSense</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">享受。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解有关 ntopng 的更多信息，请访问</font></font><a href="https://www.ntop.org/guides/ntopng/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.ntop.org/guides/ntopng/api/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-details" class="anchor" aria-hidden="true" tabindex="-1" href="#details"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">细节</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 ntopng 的更多信息，请访问</font></font><a href="https://www.ntop.org/products/traffic-analysis/ntop/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://ntop.org</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ntopng 是在美国和欧盟的注册商标。</font></font></p>
+</article></div>
